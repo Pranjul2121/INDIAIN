@@ -1,0 +1,35 @@
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Node modules (if React/Node)
+node_modules/
+
+# Python virtual environment
+.venv/
+venv/
+
+# Logs
+logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Build folders
+dist/
+build/
+
+# IDE files
+.vscode/
+.idea/
+
+# Cache
+__pycache__/
+*.pyc
+
+# Misc
+*.sqlite3
+*.db
