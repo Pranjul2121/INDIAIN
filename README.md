@@ -1,4 +1,4 @@
-# 🚀 INDIAIN — Project Overview (Updated)
+# 🚀 INDIAIN
 
 INDIAIN is an AI-powered Career Intelligence & Placement Readiness platform focused on helping students and early professionals assess skills, improve resumes, verify profiles, and find better job matches.
 
