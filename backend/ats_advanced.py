@@ -78,6 +78,7 @@ def calculate_ats_score(resume_skills, job_skills, resume_text):
 
     skill_score = (len(matched) / len(job_skills)) * 60 if job_skills else 0
 
+
     length_score = resume_length_score(resume_text) * 0.2
 
     exp = detect_experience(resume_text)

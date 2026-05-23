@@ -5,7 +5,7 @@ export default function ProtectedRoute({ children }) {
 
   console.log("Token:", token); // DEBUG
 
-  if (!token) {
+  if (!token || token === "undefined" || token === "null") {
     return <Navigate to="/" replace />;
   }
 

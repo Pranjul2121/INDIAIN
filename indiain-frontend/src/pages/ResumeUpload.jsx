@@ -74,7 +74,7 @@ export default function ResumeUpload({ setResumeText }) {
           className="hidden"
           ref={fileInputRef}
           onChange={handleFileChange}
-          accept=".pdf,.doc,.docx"
+          accept=".pdf"
         />
 
         {!file ? (
@@ -85,7 +85,7 @@ export default function ResumeUpload({ setResumeText }) {
               </svg>
             </div>
             <p className="text-slate-700 font-bold mb-1">Click to upload your resume</p>
-            <p className="text-slate-500 text-sm font-medium">PDF, DOCx (Max 5MB)</p>
+            <p className="text-slate-500 text-sm font-medium">PDF only (Max 5MB)</p>
           </>
         ) : (
           <div className="w-full flex items-center justify-between bg-white border border-indigo-100 rounded-xl p-4 shadow-sm">
